@@ -447,4 +447,3 @@ def index_page(request: Request):
 @app.get("/about", response_class=HTMLResponse)
 def about_page(request: Request):
     return templates.TemplateResponse("about.html", {"request": request})
-
